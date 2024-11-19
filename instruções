@@ -1,0 +1,25 @@
+Chat com Python
+
+REQUISITOS: 
+- O Python tem que estar instalado em todas as maquinas que farão uso do chat.
+- Os arquivos ".py" devem estar na mesma pasta para funcionar o código.
+
+Configure o IP do Servidor:
+    Para iniciar uma pessoas deve rodar o "server.py", colocando o seu IP no "host" e escolhendo uma porta aleatória, mas que
+deve ser usada como padrão nos outros computadores. E em seguida rodar o "client.py", colpcando no host e porta os mesmos valores
+que foram colocados no server.
+
+Em seguida, execute o Servidor.
+
+Para sair do programa, basta fechar a janela do cliente, ou clicar no botão "exit".
+
+IMPORTANTE:
+Todas as máquinas devem estar na mesma rede, e caso tenha problema com a conexão, pode desabilitar o firewall das maquinas
+para funcionar. 
+
+RELATÓRIO: 
+Uso de threads: Utilizadas para que os clientes possam ser ativos ao mesmo tempo, possibilitando a troca de mensagens simultâneas no servidor.
+Sockets: Utilizados para a definição do uso de IP em modelo IPv4, Além do protocolo de conexão TCP que garante melhor segurança de envio de pacotes. 
+Broadcast: A comunicação que envia a mesma mensagem para o todos os usuário, com exceção do remetende a partir de dunções e loops definidos no arquivo do servidor.
+Unicast (TCP): Comunicação específica, onde o usuário escolhe a quem deseja direcionar uma mensagem através do uso do "@" antes da mensagem de fato.
+O usuário é identificado a partir do nome que insere ao se conectar ao servidor. Além disso, mensagens são exibidas para quando um usuário entra ou sai da conexão cliente-servidor.
